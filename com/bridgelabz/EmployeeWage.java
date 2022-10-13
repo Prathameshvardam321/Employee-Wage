@@ -7,8 +7,7 @@ package com.bridgelabz;
         static final int EMP_WAGE_PER_HOUR = 20;
         static int FULL_TIME_HOUR = 8;
         static int PART_TIME_HOUR = 4;
-
-        public static void main(String[] args) {
+        public static void computeEmployeeWage(){
             int totalDays = 20;
             int totalWage = 0;
             int totalHours = 0;
@@ -42,6 +41,9 @@ package com.bridgelabz;
             System.out.println("Total wage is : " + totalWage);
         }
 
+        public static void main(String[] args) {
+           computeEmployeeWage();
+        }
         }
 
 
