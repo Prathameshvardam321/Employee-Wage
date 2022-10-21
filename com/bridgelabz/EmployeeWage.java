@@ -51,9 +51,8 @@ public class EmployeeWage  {
         System.out.println("total employee wage is = " + TOTAL_EMPLOYEE_WAGE );
     }
     public static void main(String[] args) {
+    EmployeeWage employeeWage = new EmployeeWage("Amj",25,14,7,24);
+    employeeWage.computeWage();
 
-        ArrayList<EmployeeWage> employeeWageArrayList = new ArrayList<>();
-        employeeWageArrayList.add(new EmployeeWage("Perfios",12,12,123,32));
-        employeeWageArrayList.add(new EmployeeWage("Turtlemint",12,12,123,32));
     }
 }
