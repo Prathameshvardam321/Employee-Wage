@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 import java.util.ArrayList;
 
-public class EmployeeWage implements InterfaceEmployee {
+public class EmployeeWage  {
     static final int IS_FULL_TIME = 1;
     static final int IS_PART_TIME = 2;
     private int EMP_WAGE_PER_HOUR ;
@@ -18,7 +18,7 @@ public class EmployeeWage implements InterfaceEmployee {
         this.PART_TIME_HOUR = PART_TIME_HOUR;
         this.WORKING_DAYS_PER_MONTH = WORKING_DAYS_PER_MONTH;
     }
-    @Override
+
     public void computeWage() {
         int empHours = 0 ;
         int day = 1;
