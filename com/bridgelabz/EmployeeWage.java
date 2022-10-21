@@ -49,6 +49,7 @@ public class EmployeeWage  {
         }
         TOTAL_EMPLOYEE_WAGE = totalWage;
         System.out.println("total employee wage is = " + TOTAL_EMPLOYEE_WAGE );
+
     }
     public static void main(String[] args) {
     EmployeeWage employeeWage = new EmployeeWage("Amj",25,14,7,24);
