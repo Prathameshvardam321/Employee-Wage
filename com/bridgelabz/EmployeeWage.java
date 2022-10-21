@@ -1,6 +1,5 @@
 package com.bridgelabz;
 
-import java.util.ArrayList;
 
 public class EmployeeWage  {
     static final int IS_FULL_TIME = 1;
