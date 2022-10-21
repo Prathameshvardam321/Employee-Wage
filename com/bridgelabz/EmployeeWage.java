@@ -46,6 +46,7 @@ public class EmployeeWage implements InterfaceEmployee {
         }
         TOTAL_EMPLOYEE_WAGE = totalWage;
         System.out.println("total employee wage is = " + TOTAL_EMPLOYEE_WAGE );
+
     }
     public static void main(String[] args) {
      EmployeeWage employeeWage1 = new EmployeeWage(20,10,6,20);
