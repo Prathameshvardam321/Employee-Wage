@@ -1,4 +1,7 @@
 package com.bridgelabz;
+
+import java.util.ArrayList;
+
 public class EmployeeWage implements InterfaceEmployee {
     static final int IS_FULL_TIME = 1;
     static final int IS_PART_TIME = 2;
@@ -9,7 +12,7 @@ public class EmployeeWage implements InterfaceEmployee {
     private int TOTAL_EMPLOYEE_WAGE ;
     public EmployeeWage() {
     }
-    public EmployeeWage(int EMP_WAGE_PER_HOUR, int FULL_TIME_HOUR, int PART_TIME_HOUR, int WORKING_DAYS_PER_MONTH) {
+    public EmployeeWage(String companyName,int EMP_WAGE_PER_HOUR, int FULL_TIME_HOUR, int PART_TIME_HOUR, int WORKING_DAYS_PER_MONTH) {
         this.EMP_WAGE_PER_HOUR = EMP_WAGE_PER_HOUR;
         this.FULL_TIME_HOUR = FULL_TIME_HOUR;
         this.PART_TIME_HOUR = PART_TIME_HOUR;
@@ -49,8 +52,10 @@ public class EmployeeWage implements InterfaceEmployee {
 
     }
     public static void main(String[] args) {
-     EmployeeWage employeeWage1 = new EmployeeWage(20,10,6,20);
-     employeeWage1.computeWage();
+
+        ArrayList<EmployeeWage> employeeWageArrayList = new ArrayList<>();
+        employeeWageArrayList.add(new EmployeeWage("Perfios",12,12,123,32));
+        employeeWageArrayList.add(new EmployeeWage("Turtlemint",12,12,123,32));
     }
 
 }
