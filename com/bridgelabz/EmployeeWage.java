@@ -57,5 +57,4 @@ public class EmployeeWage implements InterfaceEmployee {
         employeeWageArrayList.add(new EmployeeWage("Perfios",12,12,123,32));
         employeeWageArrayList.add(new EmployeeWage("Turtlemint",12,12,123,32));
     }
-
 }
