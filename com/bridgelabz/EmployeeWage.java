@@ -21,7 +21,7 @@ public class EmployeeWage  {
         computeWage();
     }
 
-    public void computeWage() {
+   public void computeWage() {
         int empHours = 0 ;
         int day = 1;
         int totalWage = 0;
