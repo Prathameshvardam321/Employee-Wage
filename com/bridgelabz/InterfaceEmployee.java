@@ -1,5 +1,5 @@
 package com.bridgelabz;
 
- interface InterfaceEmployee {
+interface InterfaceEmployee {
     void computeWage();
 }
