@@ -48,6 +48,7 @@ public class EmployeeWage  {
 
     }
     public static int totalEmployeeWage(){
+
         return totalEmployeeWage;
     }
     public static void main(String[] args) {
