@@ -29,24 +29,18 @@ public class EmployeeWage  {
         while (day <= workingDaysPerMonth && empHours <= 100) {
             int dailyWage = 0;
             int employeeCheck = (int) Math.floor(Math.random() * 10) % 3;
-
             switch (employeeCheck) {
                 case IS_FULL_TIME:
-
                     dailyWage = empWagePerHour* fullTimeHour;
                     empHours += fullTimeHour ;
                     break;
                 case IS_PART_TIME:
-
                     dailyWage = empWagePerHour * partTimeHour;
                     empHours += partTimeHour ;
 
                     break;
                 default:
-
             }
-
-
             day++;
             totalWage += dailyWage ;
         }
