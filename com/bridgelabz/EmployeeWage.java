@@ -52,6 +52,6 @@ public class EmployeeWage  {
     }
     public static void main(String[] args) {
     EmployeeWage employeeWage = new EmployeeWage("Amj",25,14,7,24);
-    System.out.println(employeeWage.companyName+" total wage is : "+totalEmployeeWage());
+    System.out.println(employeeWage.companyName+" total wage id : "+totalEmployeeWage());
     }
 }
